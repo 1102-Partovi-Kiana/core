@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Web Application for Robotics Education - UNR CS 425 Senior Project - Fall 2024</title>
+  <meta content="" name="description">
+
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon"> -->
+  <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <!-- <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet"> -->
+  <!-- <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
+  <!-- <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"> -->
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: FlexStart - v1.0.0
+  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="100">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <i class="bi-joystick" style="color: #7A87F5; font-size:25px; margin-right:10px;"></i>
+        <span>core</span>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="#">Home</a></li>
+          <li><a class="nav-link scrollto" href="#description">About</a></li>
+          <li><a class="nav-link scrollto" href="#progress-section">Progress</a></li>
+          <li><a class="nav-link scrollto" href="#people">People</a></li>
+          <li><a class="nav-link scrollto" href="#references">Resources</a></li>
+          <li><a class="nav-link scrollto" href="#documentation">Documentation</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up">Web Application for Robotics Education</h1>
+          <span class="fw-bold fs-2 mb-3" data-aos="fade-up" data-aos-delay="400" style="color: #eee;">Team 11</span>
+          <span class="fs-5" data-aos="fade-up" data-aos-delay="500" style="color: #eee;">CS 426 Senior Project in
+            Computer Science<br>Spring
+            2021<br>University of Nevada, Reno<br> Computer Science & Engineering Department</span>
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-center">
+              <a href="#description"
+                class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Learn more</span>
+                <i class="bi bi-arrow-down"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+    <!-- Description -->
+    <section id="description" class="description">
+      <div class="container-fluid">
+        <div class="row gx-0" data-aos="fade-up">
+          <div class="col-lg-7 d-flex flex-column justify-content-center">
+            <div class="content rounded-3">
+              <h2 class="fw-bold text-uppercase fs-5" style="color: #4154f1;">Project Description</h2>
+              <p>Our team is currently developing a full stack web application specifically designed for students taking
+                higher education
+                robotics classes. The main goal of this project is to give students convenient access to the open-source
+                OpenAI Gym
+                robotics environments, which are exercises that allow students to develop and test reinforcement
+                learning algorithms.
+                CORE incorporates these robotics environments in a user friendly website, and adds valuable features
+                such as a code
+                editor with syntax highlighting and support for uploading an existing code file. Users are able to view
+                the output of
+                their code with a generated video and shell output after the back-end server compiles the user's code.
+              </p>
+              <p>In addition, CORE provides a user account management system to manage access to CORE. To use CORE in an
+                educational
+                class, instructors will create their own accounts. Afterwards, instructors can create a class within
+                CORE, which
+                generates a Class ID that can be distributed to students. Students create their own accounts using the
+                Class ID given to
+                them. Instructors can observe and evaluate the progress made by each student in the environments
+                assigned.</p>
+              <p>CORE is developed with performance and simplicity by utilizing the lightweight Flask server framework
+                and Bootstrap web
+                development libraries. All code compilation is conducted on the back-end server, giving users the
+                capability of using
+                the OpenAI Gym framework without installing it on their own machines. This, combined with the goal of
+                making the
+                website's design fully responsive, allows users to take advantage of CORE using low-power devices such
+                as smartphones
+                and tablets.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-5" data-aos="zoom-out">
+            <img src="assets/img/sai-kiran-anagani-Tjbk79TARiE-unsplash.jpg" class="img-fluid shadow-lg" alt=""
+              style="border-radius: 50px 5px 50px 5px;">
+          </div>
+
+        </div><!-- End Description -->
+      </div>
+    </section>
+    <section id="progress-section" class="description">
+      <div class=" container">
+        <div class="row justify-content-center" data-aos="fade-up">
+          <div class="col-lg-7 d-flex flex-column justify-content-center">
+            <div class="content rounded-3">
+              <h2 class="fw-bold text-uppercase fs-5" style="color: #4154f1;">Progress</h2>
+              <p>As the semester ends, more features have been added to CORE to make it a full-fledged learning
+                platform. The user
+                account management system has been fully implemented. Two types of accounts are possible: instructors
+                and students.
+                After instructors create an account, they distribute the class ID obtained after creating a class to
+                their students.
+                Students sign up for an account with this class ID. Additionally, a password reset mechanism has been
+                created to assist
+                users in resetting their password if forgotten.
+              </p>
+              <p>Another major accomplishment for the project team is the creation of the class management system.
+                Instructors can create
+                new classes using the Instructor Portal page, choose which environments they would like to enable, and
+                select due dates
+                for those environments. In addition, instructors can view the code submissions of every student in the
+                class.</p>
+            </div>
+          </div>
+
+        </div><!-- End Description -->
+      </div>
+    </section>
+    <!-- ======= People Section ======= -->
+    <section id="people" class="features">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>People</h2>
+          <p>Student team</p>
+        </header>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
+            <div class="row align-self-center gy-4">
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
+                <div class="feature-box d-flex align-items-center">
+                  <h3>Kiana Partovi</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
+                <div class="feature-box d-flex align-items-center">
+                  <h3>Darren Ly</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
+                <div class="feature-box d-flex align-items-center">
+                  <h3>Timothy Ang</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div> <!-- / row -->
+      </div>
+    </section>
+    <section id="features" class="features">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <p>Instructors and Advisors</p>
+        </header>
+
+      <!-- Feature Icons -->
+      <div class="row feature-icons" data-aos="fade-up">
+        <div class="row justify-content-center">
+          <div class="col-xl-8 d-flex content">
+            <div class="row align-self-center gy-4">
+              <div class="col-md-6 icon-box" data-aos="fade-up">
+                <div>
+                  <h4>Sara Davis - Instructor</h4>
+                  <p>Professor, University of Nevada Reno CS 425 Fall 2024</p>
+                </div>
+              </div>
+
+              <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                <div>
+                  <h4>David Feil-Seifer - Advisor</h4>
+                  <p>Professor, Graduate Director, UNR CS 426 Spring 2021</p>
+                </div>
+              </div>
+
+              <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                <div>
+                  <h4>Vihn Lee - Instructor</h4>
+                  <p>Professor, University of Nevada Reno CS 425 Fall 2024</p>
+                </div>
+              </div>
+
+              <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                <div>
+                  <h4>Hossein Jamali - Advisor</h4>
+                  <p>PHD student, University of Nevada Reno</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div><!-- End Feature Icons -->
+
+      </div>
+
+    </section><!-- End Features Section -->
+    <!-- ======= References Section ======= -->
+    <section id="references" class="services">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Project Resources</h2>
+          <p>Technologies, research, and documentation</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-box blue">
+              <i class="bi-file-earmark-text icon" style="padding: 25px;"></i>
+              <h3>OpenAI Gym</h3>
+              <p>Open-source API written in Python for solving reinforcement learning algorithms</p>
+              <a href="https://openai.com/blog/ingredients-for-robotics-research/" class="read-more"><span>Blog post:
+                  Ingredients for Robotics Research</span> <i class="bi bi-arrow-up-right"></i></a>
+              <a href="https://gym.openai.com/docs/" class="read-more"><span>OpenAI Gym Docs</span> <i
+                  class="bi bi-arrow-up-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-box orange">
+              <i class="bi-server icon" style="padding: 25px;"></i>
+              <h3>MySQL Documentation</h3>
+              <p>Database system utilized to store robotics environments and users</p>
+              <a href="https://dev.mysql.com/doc/" class="read-more"><span>Read More</span> <i
+                  class="bi bi-arrow-up-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-box green">
+              <i class="bi-hdd icon" style="padding: 25px;"></i>
+              <h3>Flask Server Documentation</h3>
+              <p>Back end software that receives and distributes content</p>
+              <a href="https://flask.palletsprojects.com/en/1.1.x/" class="read-more"><span>Read More</span> <i
+                  class="bi bi-arrow-up-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-box red">
+              <i class="bi-palette2 icon" style="padding: 25px;"></i>
+              <h3>Bootstrap Framework Documentation</h3>
+              <p>Front end framework providing the design of the user interface</p>
+              <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" class="read-more"><span>Read
+                  More</span> <i class="bi bi-arrow-up-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-box purple">
+              <i class="bi-journal icon" style="padding: 25px;"></i>
+              <h3>Journal Article
+              </h3>
+              <p> Educational programming systems for learning at scale<br>Qianxiang Wang,
+                Wenxin Li,
+                Tao Xie
+              </p>
+              <a href="https://dl.acm.org/doi/10.1145/2556325.2567868" class="read-more"><span>Read More</span> <i
+                  class="bi bi-arrow-up-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
+            <div class="service-box pink">
+              <i class="bi-book icon" style="padding: 25px;"></i>
+              <h3>Problem Domain Book
+              </h3>
+              <p> Robotics in STEM Education<br>Khine, Myint Swe
+              </p>
+              <a href="https://www.amazon.com/dp/3319577859" class="read-more"><span>Read More</span> <i
+                  class="bi bi-arrow-up-right"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Services Section -->
+    <section id="documentation">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <header class="section-header">
+              <h2>Documentation</h2>
+              <p>Reports and media</p>
+            </header>
+            <ul class="nav flex-column" style="font-size: 20px; font-weight: 600;">
+              <li class="nav-item">
+                <h3 style="font-weight: 700;">Fall 2024</h3>
+                <a href="#" class="nav-link">Proposal</a>
+                <a href="#" class="nav-link">Specification</a>
+                <a href="#" class="nav-link">Design</a>
+                <a href="#" class="nav-link">Project Prototype</a>
+                <h3 class="mt-4" style="font-weight: 700;">Spring 2025</h3>
+                <a href="#" class="nav-link">Revised Concept & Project Management</a>
+                <a href="#" class="nav-link">Revised Specification & Design</a>
+                <a href="#" class="nav-link">Acceptance Criteria and Testing Strategy & Plan</a>
+                <a href="#" class="nav-link">Project Poster</a>
+                <a href="#" class="nav-link">Project Video</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <!-- <script src="assets/vendor/purecounter/purecounter.js"></script> -->
+    <!-- <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script> -->
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
