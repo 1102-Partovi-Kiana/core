@@ -27,6 +27,23 @@
         outline: 2px solid #4154f1; 
         background: #f8f9fa; 
     }
+
+    a:focus, button:focus {
+      outline: 3px solid #ffcc00; 
+      box-shadow: 0 0 8px #ffcc00;
+    }
+
+    .name-box:hover i, 
+    .name-box:focus i {
+        visibility: visible !important;
+    }
+
+    .name-box:hover i {
+        visibility: visible;
+    }
+
+
+
   </style>
 
   <!-- =======================================================
@@ -100,7 +117,8 @@ The goal is to provide for all types of students, whether that be because they d
 
            <div class="col-lg-5" data-aos="zoom-out">
             <img src="assets/img/sai-kiran-anagani-Tjbk79TARiE-unsplash.jpg" class="img-fluid shadow-lg"
-              alt="Image of coding environment" style="border-radius: 50px 5px 50px 5px;">
+                 alt="Image of coding environment" 
+                 style="border-radius: 50px 5px 50px 5px;">
           </div>
         </div>
       </div>
